@@ -90,5 +90,5 @@ fn main() {
     graph.add_biedge(3, 2, 5.0);
     graph.add_biedge(3, 5, 5.0);
     println!("{}", graph.shortest_path(1, 3));
-    println!("Elapsed time: {:.2?}", before.elapsed()};
+    println!("Elapsed time: {:.2?}", before.elapsed());
 }
